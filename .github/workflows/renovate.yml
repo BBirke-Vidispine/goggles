@@ -1,0 +1,13 @@
+name: Test Action With Renovate
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [push]
+jobs:
+  do-renovate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: npm install --global renovate@">=39.0.0 <44.0.0"
+      - run: renovate --version
