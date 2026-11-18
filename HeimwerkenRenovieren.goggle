@@ -6,12 +6,60 @@
 
 ! URL patterns boost:
 
-/blog.$boost=1
-/blog/$boost=1
+^blog.$boost=2
+.blog./$boost=2
+/blog.$boost=2
+/blog/$boost=2
+^verbraucherzentrale$boost=2
+.verbraucherzentrale$boost=2
 
 ! URL patterns downrank:
 
-*24.*$downrank=5
+*24.$downrank=5
+*laden.$downrank=5
+*shop.$downrank=5
+*test.*^$downrank=3
+*tests.*^$downrank=3
+*vergleich.*^$downrank=3
+
+! URL patterns discard:
+
+^amazon.$discard
+.amazon.$discard
+^bauhaus.$discard
+.bauhaus.$discard
+^benz24.$discard
+.benz24.$discard
+^ebay.$discard
+.ebay.$discard
+^ebay-kleinanzeigen.$discard
+.ebay-kleinanzeigen.$discard
+^energieheld.$discard
+.energieheld.$discard
+^homify.$discard
+.homify.$discard
+^hornbach.$discard
+.hornbach.$discard
+^houzz.$discard
+.houzz.$discard
+^idealo.$discard
+.idealo.$discard
+^immobilienscout24.$discard
+.immobilienscout24.$discard
+^immowelt.$discard
+.immowelt.$discard
+^klimaplatte.$discard
+.klimaplatte.$discard
+^klimaplatten.$discard
+.klimaplatten.$discard
+^klimaplattenshop.$discard
+.klimaplattenshop.$discard
+^my-hammer.$discard
+.my-hammer.$discard
+^obi.$discard
+.obi.$discard
+^pearl.$discard
+.pearl.$discard
 
 ! Discard/block these sites:
 
@@ -25,9 +73,6 @@ $discard,site=advocado.de
 $discard,site=aktobis.de
 $discard,site=aliexpress.com
 $discard,site=alleantworten.de
-$discard,site=amazon.at
-$discard,site=amazon.com
-$discard,site=amazon.de
 $discard,site=ampack.biz
 $discard,site=andinet.de
 $discard,site=anwaltfinden.at
@@ -47,10 +92,6 @@ $discard,site=bauen.de
 $discard,site=bauenplus.de
 $discard,site=baufoerderung.de
 $discard,site=bauhandwerk.de
-$discard,site=bauhaus.at
-$discard,site=bauhaus.ch
-$discard,site=bauhaus.de
-$discard,site=bauhaus.info
 $discard,site=bauking.de
 $discard,site=baumangel-gutachter.de
 $discard,site=baumaschinen.online
@@ -70,9 +111,6 @@ $discard,site=baustoffwissen.de
 $discard,site=bauunternehmen.org
 $discard,site=bauwohnwelt.at
 $discard,site=behrens-baugeschaeft.de
-$discard,site=benz24.at
-$discard,site=benz24.ch
-$discard,site=benz24.de
 $discard,site=bestcheck.de
 $discard,site=bild.de
 $discard,site=biobaushop.at
@@ -116,12 +154,6 @@ $discard,site=duschdichtungsprofile.de
 $discard,site=duschkraft.de
 $discard,site=duschmeister.de
 $discard,site=duschtuerdichtung.de
-$discard,site=ebay.at
-$discard,site=ebay.com
-$discard,site=ebay.de
-$discard,site=ebay-kleinanzeigen.at
-$discard,site=ebay-kleinanzeigen.com
-$discard,site=ebay-kleinanzeigen.de
 $discard,site=eccuro.com
 $discard,site=ecofort.ch
 $discard,site=econativ.de
@@ -129,8 +161,6 @@ $discard,site=effizienzhaus-online.de
 $discard,site=elektroheizung.org
 $discard,site=elektropraxis.at
 $discard,site=elv.com
-$discard,site=energieheld.ch
-$discard,site=energieheld.de
 $discard,site=energie-experten.org
 $discard,site=energie-fachberater.de
 $discard,site=energie-sparen-im-haushalt.de
@@ -218,30 +248,13 @@ $discard,site=holzland.de
 $discard,site=holzschutz.com
 $discard,site=holzshop-vogtland.de
 $discard,site=homeandsmart.de
-$discard,site=homify.at
-$discard,site=homify.ch
-$discard,site=homify.de
 $discard,site=hood.de
-$discard,site=hornbach.at
-$discard,site=hornbach.de
 $discard,site=hornung-baushop.de
 $discard,site=houzy.ch
-$discard,site=houzz.at
-$discard,site=houzz.ch
-$discard,site=houzz.de
 $discard,site=hurra-wir-bauen.de
-$discard,site=idealo.at
-$discard,site=idealo.ch
-$discard,site=idealo.de
 $discard,site=idealwork.de
-$discard,site=immobilienscout24.at
-$discard,site=immobilienscout24.ch
-$discard,site=immobilienscout24.de
 $discard,site=immoportal.com
 $discard,site=immoverkauf24.de
-$discard,site=immowelt.at
-$discard,site=immowelt.ch
-$discard,site=immowelt.de
 $discard,site=indoordiscount.com
 $discard,site=infrarotarena.com
 $discard,site=infrarot-heizung.blog
@@ -270,16 +283,10 @@ $discard,site=kemmler.de
 $discard,site=kesselheld.de
 $discard,site=kleinanzeigen.de
 $discard,site=klimajournal.com
-$discard,site=klimaplatte.shop
-$discard,site=klimaplatte.store
 $discard,site=klimaplatte24.de
-$discard,site=klimaplatten.de
-$discard,site=klimaplatten.net
 $discard,site=klimaplatten-discount.de
 $discard,site=klimaplatten-shop.de
 $discard,site=klimaplattendirekt.de
-$discard,site=klimaplattenshop.com
-$discard,site=klimaplattenshop.de
 $discard,site=kloepfer.de
 $discard,site=kunststoffhaus.de
 $discard,site=kunststoffplattenprofis.de
@@ -322,9 +329,6 @@ $discard,site=mlht.de
 $discard,site=modernedusche.de
 $discard,site=modulor.de
 $discard,site=musterhaus.net
-$discard,site=my-hammer.at
-$discard,site=my-hammer.ch
-$discard,site=my-hammer.de
 $discard,site=naturanum.de
 $discard,site=naturbau24.de
 $discard,site=naturbauhof.de
@@ -335,8 +339,6 @@ $discard,site=naturbaustoffladen.de
 $discard,site=naturstein-boden.com
 $discard,site=nbh24.de
 $discard,site=net4energy.com
-$discard,site=obi.at
-$discard,site=obi.de
 $discard,site=objego.de
 $discard,site=oekoloco.de
 $discard,site=oekologisch-bauen.info
@@ -346,9 +348,6 @@ $discard,site=ofen.de
 $discard,site=onlinebaugutachter.de
 $discard,site=otto.de
 $discard,site=paneelenshop.at
-$discard,site=pearl.at
-$discard,site=pearl.ch
-$discard,site=pearl.de
 $discard,site=planradar.com
 $discard,site=pfiffigwohnen.de
 $discard,site=picclick.de
@@ -468,17 +467,10 @@ $boost=3,site=geb-info.de
 $boost=3,site=hausbau-forum.de
 $boost=3,site=haustechnikdialog.de
 $boost=3,site=infoholz.at
-$boost=3,site=reddit.com
+$boost=2,site=reddit.com
 $boost=3,site=saunabauen.de
 $boost=3,site=woodworker.de
 $boost=3,site=zerspanungsbude.net
 
 ! Boost Level 1-4: sonstige Positivseiten
 $boost=2,site=luftdicht.de
-$boost=2,site=verbraucherzentrale.bayern
-$boost=2,site=verbraucherzentrale.de
-$boost=2,site=verbraucherzentrale.nrw
-$boost=2,site=verbraucherzentrale-bawue.de
-$boost=2,site=verbraucherzentrale-energieberatung.de
-$boost=2,site=verbraucherzentrale-rlp.de
-$boost=2,site=verbraucherzentrale-sachsen.de
