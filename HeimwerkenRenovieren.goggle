@@ -81,9 +81,12 @@ $discard,site=daemmen-und-sanieren.de
 $discard,site=daemmstoff.org
 $discard,site=daemmstoffe-dortmund.de
 $discard,site=daemmstoffkoenig.de
+$discard,site=daemmstoffmarkt.de
 $discard,site=daemmstoffonline.de
 $discard,site=daemmstoffshop.de
+$discard,site=deavita.com
 $discard,site=decens.at
+$discard,site=deea.de
 $discard,site=deg-sued.de
 $discard,site=dein-heizungsbauer.de
 $discard,site=deinwerkunserzeug.de
@@ -248,6 +251,7 @@ $discard,site=jonastone.de
 $discard,site=jumbo-shop.de
 $discard,site=kalziumsilikatplatten.com
 $discard,site=kaufsortiment.de
+$discard,site=kemmler.de
 $discard,site=kesselheld.de
 $discard,site=kleinanzeigen.de
 $discard,site=klimajournal.com
@@ -267,6 +271,7 @@ $discard,site=kunststoffplattenprofis.de
 $discard,site=lambado.de
 $discard,site=laminat-fachmarkt.com
 $discard,site=lehm-bau-shop.de
+$discard,site=lehmdiscount.de
 $discard,site=lernhelfer.de
 $discard,site=lichtwunder.com
 $discard,site=lieferanten.de
@@ -304,6 +309,7 @@ $discard,site=musterhaus.net
 $discard,site=my-hammer.at
 $discard,site=my-hammer.ch
 $discard,site=my-hammer.de
+$discard,site=naturanum.de
 $discard,site=naturbauhof.de
 $discard,site=naturbaustoffe-nord.de
 $discard,site=naturstein-boden.com
@@ -329,6 +335,7 @@ $discard,site=picclick.de
 $discard,site=primaprofi.de
 $discard,site=probreeze.com
 $discard,site=prozentguru.de
+$discard,site=putz-farbe.kaufen
 $discard,site=rauchfang-fachhandel.at
 $discard,site=raumklimatest.de
 $discard,site=raumluft-shop.de
@@ -408,6 +415,7 @@ $downrank,site=focus.de
 $downrank,site=stern.de
 $downrank,site=t-online.de
 $downrank,site=utopia.de
+$downrank,site=welt.de
 
 
 ! Boost Level 2: Detaillierte Informationsquellen, außer von Herstellern
@@ -419,6 +427,7 @@ $boost=2,site=energie-lexikon.info
 $boost=2,site=fraunhofer.de
 $boost=2,site=passipedia.de
 $boost=2,site=passiv.de
+$boost=2,site=schlau-energiesparen.de
 $boost=2,site=ubakus.de
 $boost=2,site=wufi.de
 
@@ -444,3 +453,10 @@ $boost,site=zerspanungsbude.net
 
 ! Boost Level 1: sonstige Positivseiten
 $boost,site=luftdicht.de
+$boost,site=verbraucherzentrale.bayern
+$boost,site=verbraucherzentrale.de
+$boost,site=verbraucherzentrale.nrw
+$boost,site=verbraucherzentrale-bawue.de
+$boost,site=verbraucherzentrale-energieberatung.de
+$boost,site=verbraucherzentrale-rlp.de
+$boost,site=verbraucherzentrale-sachsen.de
