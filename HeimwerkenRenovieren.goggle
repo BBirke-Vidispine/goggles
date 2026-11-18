@@ -15,9 +15,10 @@
 
 ! URL patterns downrank:
 
-*24.$downrank=5
-*laden.$downrank=5
-*shop.$downrank=5
+^24*.*^$downrank=7
+*24.$downrank=7
+*laden.$downrank=7
+*shop.$downrank=7
 *test.*^$downrank=3
 *tests.*^$downrank=3
 *vergleich.*^$downrank=3
@@ -36,6 +37,8 @@
 .ebay-kleinanzeigen.$discard
 ^energieheld.$discard
 .energieheld.$discard
+^google.$discard
+.google.$discard
 ^homify.$discard
 .homify.$discard
 ^hornbach.$discard
@@ -93,6 +96,7 @@ $discard,site=bauenplus.de
 $discard,site=baufoerderung.de
 $discard,site=bauhandwerk.de
 $discard,site=bauking.de
+$discard,site=baukraft.de
 $discard,site=baumangel-gutachter.de
 $discard,site=baumaschinen.online
 $discard,site=baumentor.de
@@ -190,12 +194,10 @@ $discard,site=frag-den-heimwerker.com
 $discard,site=fugundbautenschutz.de
 $discard,site=gelbeseiten.de
 $discard,site=gesundes-haus.ch
+$discard,site=gfm-naturbaustoffe.de
 $discard,site=gillet-baustoffe.de
 $discard,site=glas.de
 $discard,site=glasprofi24.de
-$discard,site=google.at
-$discard,site=google.com
-$discard,site=google.de
 $discard,site=guenstigerdaemmstoff.de
 $discard,site=gutefrage.net
 $discard,site=guter-rat.de
@@ -293,6 +295,7 @@ $discard,site=kunststoffplattenprofis.de
 $discard,site=lambado.de
 $discard,site=laminat-fachmarkt.com
 $discard,site=lehm-bau-shop.de
+$discard,site=lehmbau-neuhaus.de
 $discard,site=lehmdiscount.de
 $discard,site=lernhelfer.de
 $discard,site=lichtwunder.com
@@ -330,6 +333,7 @@ $discard,site=modernedusche.de
 $discard,site=modulor.de
 $discard,site=musterhaus.net
 $discard,site=naturanum.de
+$discard,site=naturbau.gmbh
 $discard,site=naturbau24.de
 $discard,site=naturbauhof.de
 $discard,site=naturbaustoffcentrum.de
