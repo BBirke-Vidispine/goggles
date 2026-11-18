@@ -4,6 +4,17 @@
 ! author: Bastian Birke
 ! avatar: #806000
 
+! URL patterns boost:
+
+/blog.$boost=1
+/blog/$boost=1
+
+! URL patterns downrank:
+
+*24.*$downrank=5
+
+! Discard/block these sites:
+
 $discard,site=1000-haushaltstipps.de
 $discard,site=11880-dachdecker.com
 $discard,site=3senso.de
