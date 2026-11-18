@@ -68,7 +68,6 @@ $discard,site=biobaushop.at
 $discard,site=bm-online.de
 $discard,site=bossmann-store.de
 $discard,site=branchenzentrum-ausbau-fassade.de
-$discard,site=bsb-ev.de
 $discard,site=btec24.de
 $discard,site=buildigo.ch
 $discard,site=climia.de
@@ -189,7 +188,6 @@ $discard,site=heimwerk.org
 $discard,site=heimwerker.de
 $discard,site=heimwerker-news.de
 $discard,site=heinl-bauelemente.de
-$discard,site=heinze.de
 $discard,site=heiz-tipp.de
 $discard,site=heizglueck.de
 $discard,site=heizkoerper-wissen.de
@@ -341,7 +339,6 @@ $discard,site=pearl.at
 $discard,site=pearl.ch
 $discard,site=pearl.de
 $discard,site=planradar.com
-$discard,site=pluggit.com
 $discard,site=pfiffigwohnen.de
 $discard,site=picclick.de
 $discard,site=primaprofi.de
@@ -420,56 +417,57 @@ $discard,site=wuh24.de
 $discard,site=yably.de
 $discard,site=yumpu.com
 
-! Downrank Level 1:
+! Downrank Level 1-3:
 
-$downrank,site=faz.net
-$downrank,site=focus.de
-$downrank,site=stern.de
-$downrank,site=t-online.de
-$downrank,site=utopia.de
-$downrank,site=welt.de
+$downrank=3,site=faz.net
+$downrank=3,site=focus.de
+$downrank=3,site=stern.de
+$downrank=3,site=t-online.de
+$downrank=3,site=utopia.de
+$downrank=3,site=welt.de
 
 
-! Boost Level 2: Detaillierte Informationsquellen, außer von Herstellern
+! Boost Level 3-5, Ausnahmen höher: Detaillierte Informationsquellen, außer von Herstellern
 
-$boost=2,site=abenteuer-altbau.de
-$boost=2,site=bauherrenhilfe.org
-$boost=2,site=daemmatlas.de
-$boost=2,site=energie-lexikon.info
-$boost=2,site=fraunhofer.de
-$boost=2,site=passipedia.de
-$boost=2,site=passiv.de
-$boost=2,site=schlau-energiesparen.de
-$boost=2,site=ubakus.de
-$boost=2,site=wufi.de
+$boost=5,site=abenteuer-altbau.de
+$boost=5,site=bauherrenhilfe.org
+$boost=3,site=bsb-ev.de
+$boost=5,site=daemmatlas.de
+$boost=5,site=energie-lexikon.info
+$boost=5,site=fraunhofer.de
+$boost=5,site=passipedia.de
+$boost=5,site=passiv.de
+$boost=5,site=schlau-energiesparen.de
+$boost=5,site=ubakus.de
+$boost=5,site=wufi.de
 
-! Boost Level 1: Foren, Sites mit Foren
+! Boost Level 2-4: Foren, Sites mit Foren
 
-$boost,site=bau.de
-$boost,site=bau.net
-$boost,site=bau-treff.de
-$boost,site=bauexpertenforum.de
-$boost,site=dasheimwerkerforum.de
-$boost,site=drechsler-forum.de
-$boost,site=energiesparhaus.at
-$boost,site=expertenforum-bau.de
-$boost,site=fachwerk.de
-$boost,site=forum.abenteuer-altbau.de
-$boost,site=geb-info.de
-$boost,site=hausbau-forum.de
-$boost,site=haustechnikdialog.de
-$boost,site=infoholz.at
-$boost,site=reddit.com
-$boost,site=saunabauen.de
-$boost,site=woodworker.de
-$boost,site=zerspanungsbude.net
+$boost=2,site=bau.de
+$boost=2,site=bau.net
+$boost=3,site=bau-treff.de
+$boost=3,site=bauexpertenforum.de
+$boost=3,site=dasheimwerkerforum.de
+$boost=3,site=drechsler-forum.de
+$boost=3,site=energiesparhaus.at
+$boost=3,site=expertenforum-bau.de
+$boost=3,site=fachwerk.de
+$boost=3,site=forum.abenteuer-altbau.de
+$boost=3,site=geb-info.de
+$boost=3,site=hausbau-forum.de
+$boost=3,site=haustechnikdialog.de
+$boost=3,site=infoholz.at
+$boost=3,site=reddit.com
+$boost=3,site=saunabauen.de
+$boost=3,site=woodworker.de
+$boost=3,site=zerspanungsbude.net
 
-! Boost Level 1: sonstige Positivseiten
-$boost,site=luftdicht.de
-$boost,site=verbraucherzentrale.bayern
-$boost,site=verbraucherzentrale.de
-$boost,site=verbraucherzentrale.nrw
-$boost,site=verbraucherzentrale-bawue.de
-$boost,site=verbraucherzentrale-energieberatung.de
-$boost,site=verbraucherzentrale-rlp.de
-$boost,site=verbraucherzentrale-sachsen.de
+! Boost Level 1-4: sonstige Positivseiten
+$boost=2,site=luftdicht.de
+$boost=2,site=verbraucherzentrale.bayern
+$boost=2,site=verbraucherzentrale.de
+$boost=2,site=verbraucherzentrale.nrw
+$boost=2,site=verbraucherzentrale-bawue.de
+$boost=2,site=verbraucherzentrale-energieberatung.de
+$boost=2,site=verbraucherzentrale-rlp.de
+$boost=2,site=verbraucherzentrale-sachsen.de
